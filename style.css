@@ -38,8 +38,8 @@ header, section, aside, nav, footer {
 /* header and footer */
 
 header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -83,6 +83,9 @@ See https://www.fontsquirrel.com/fonts/josefin-slab
 }
 
 /* typography stuff */
+body {
+  background-color: #228f4f;
+}
 
 html {
   font-family: lovatolight, serif;
@@ -127,17 +130,18 @@ a[href*="http"] {
 }
 
 a:link, a:visited {
-  color: #a66;
+  color: white;
 }
 
 a:focus, a:hover {
   text-decoration: none;
+  color: black;
 }
 
 a:active {
   color: transparent;
-  text-shadow: 0px 0px 1px #f00,
-               0px 0px 2px #f00,
+  text-shadow: 0px 0px 1px black,
+               0px 0px 2px black,
                0px 0px 3px black,
                0px 0px 4px black;
 }
@@ -176,15 +180,15 @@ nav li a {
   line-height: 3;
   text-align: center;
   font-size: 2.5rem;
-  border: 1px solid #a66;
+  border: 1px solid white;
 }
 
 nav li a:focus, nav li a:hover {
-  color: white;
-  background: #a66;
+  color: black;
+  background: white;
 }
 
 nav li a:active {
-  color: white;
+  color:black;
   background: black;
 }
